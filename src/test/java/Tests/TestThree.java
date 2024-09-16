@@ -13,6 +13,7 @@ WebDriver driver;
 		System.out.println("test 3 is running");
 		driver=browserLaunch();
 		driver.get("https://chatgpt.com/");
+System.out.println("Changing the code");
 	}
 	@AfterMethod
 	public void AfterTest3() {
